@@ -1,0 +1,56 @@
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(60, 50, 194);
+    margin: 0%;
+    padding-top: 12%;
+    padding-bottom: 3%;
+}
+
+h6{
+    background-color: rgb(60, 50, 194);
+    color: rgba(212, 207, 207, 0.79);
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 2.5%;
+}
+
+p{
+    color: white;
+    text-align: center;
+    background-color: rgb(60, 50, 194);
+    margin-top: 0%;
+    padding-bottom: 14%;
+}
+
+button1{
+    background-color: rgb(80, 214, 178);
+    padding: 1% 2% 1% 2%;
+    border-radius: 8px;
+}
+
+.imgStyle{
+    width: 55px;
+    height: 12px;
+}
+
+.container1{
+    padding-top: 5%;
+    padding-left: 3%;   
+}
+
+.container2{
+    padding-top: 5%;
+    padding-left: 3%;  
+}
+
+.container3{
+    padding-top: 5%;
+    padding-left: 3%;  
+}
+
+.container4{
+    padding-top: 6%;
+    padding-left: 3%;  
+}

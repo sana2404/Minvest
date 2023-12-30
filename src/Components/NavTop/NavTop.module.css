@@ -1,0 +1,19 @@
+nav{
+    background-color: rgb(60, 50, 194);
+    color: white;
+}
+
+button{
+    border-radius: 0px 0px 5px 0px;
+    padding: 5%;
+    background-color: greenyellow;
+}
+
+.dropdowon-menu{
+    color: rgb(206, 201, 201);
+}
+
+.navbar navbar-expand-lg{
+    margin-top: 33%;
+}
+
