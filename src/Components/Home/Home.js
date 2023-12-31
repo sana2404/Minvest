@@ -13,8 +13,8 @@ const Home = () => {
       <NavTop/>
       <div className='container1'>
         <h1><b>Get Your Money Working For You</b></h1>
-        <h6>WHERE & HOW TO INVEST / START ON YOUR PATH TO WEALTH</h6>
-        <p>Specializing in smart investment and frugal financial planning and advice to give you the best<br />
+        <h6 className={styles.hhome}>WHERE & HOW TO INVEST / START ON YOUR PATH TO WEALTH</h6>
+        <p className={styles.phome}>Specializing in smart investment and frugal financial planning and advice to give you the best<br />
           possible outcomes both short term and long term throughout economic downturn.</p>
       </div>
 

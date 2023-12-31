@@ -36,14 +36,16 @@ export default function  NavBottom(){
         </ul>
         </div>
         <div className="col">
-            <nav className="bottom">
-              <ul><img src={mail} alt='mail' className={styles.imgs}/>investwithmitesh@gmail.com</ul>
-              <ul><img src={phone} alt='phone' className={styles.imgs}/>+91 9176453132</ul>
+            <nav className={styles.bottom}>
+              <ul><img src={mail} alt='mail' className={styles.imgs}/>  investwithmitesh@gmail.com</ul>
+              <ul><img src={phone} alt='phone' className={styles.imgs}/>  +91 9176453132</ul>
             </nav>
         </div>
         </div>
-        <img src='logo.png' alt='Minvest Logo' /><br/>
+        <br /><br />
+        <img src='logo.png' alt='Minvest Logo' /><br/><br/>
         © Copyright 2020 - 2023 | M INVEST | All Rights Reserved
+        <br /><br /><br /><br/>
     </>
     );
 };

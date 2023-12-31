@@ -8,7 +8,7 @@ h1{
     padding-bottom: 3%;
 }
 
-h6{
+.hhome{
     background-color: rgb(60, 50, 194);
     color: rgba(212, 207, 207, 0.79);
     text-align: center;
@@ -16,7 +16,7 @@ h6{
     padding-bottom: 2.5%;
 }
 
-p{
+.phome{
     color: white;
     text-align: center;
     background-color: rgb(60, 50, 194);

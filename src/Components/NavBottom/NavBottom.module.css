@@ -3,14 +3,19 @@ ul{
 }
 
 li{
-    padding-left: 2%;
+    margin-left: 2%;
 }
 
 h2{
-    padding-left: 2%;
+    margin-left: 1%;
 }
 
 .imgs{
     height: 10px;
     width: 10px;
+}
+
+.bottom{
+    background-color: white;
+    color: rgb(60, 50, 194);
 }

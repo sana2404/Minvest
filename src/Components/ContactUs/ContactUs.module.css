@@ -1,0 +1,31 @@
+.chead{
+    background-color: rgb(60, 50, 194);
+    margin-left: 0%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    color: white;
+}
+
+.fhead{
+    margin-left: 4%;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.chead1{
+    background-color: rgb(60, 50, 194);
+    margin-left: 0%;
+    padding-bottom: 5%;
+    margin-top: 0px;
+    color: rgb(219, 215, 215);
+}
+
+.contactimg{
+    width: 40%;
+    height: 80%;
+}
+
+.formImageContainer {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,14 +1,15 @@
 import React from "react";
 import './NavTop.module.css';
-import { Form, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function NavTop(){
     return(    
-      <span className="collapsed-nav-icon-open fa-bars fas">
       <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <img src='logo.png' alt='Minvest Logo' />
-        <p>AMFI Registered</p>
+        <br /><br /><br /><br/>
+        AMFI Registered
+        <br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br />
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -52,6 +53,5 @@ export default function NavTop(){
         </div>
       </div>
     </nav>
-    </span>
     );
 }

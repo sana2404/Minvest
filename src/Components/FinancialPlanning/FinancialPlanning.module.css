@@ -1,0 +1,29 @@
+.fp{
+    background-color: rgb(60, 50, 194);
+    color: white;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+    margin-left: 0%
+}
+
+.fp1{
+    color: rgb(214, 212, 212);
+    background-color: rgb(60, 50, 194);
+    margin-top: 0px;
+    padding-bottom: 3%;
+}
+
+.fpi{
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    width: 1325px;
+    aspect-ratio: auto 1325 / 672;
+    height: 672px;
+}
+
+.fpp{
+    margin-left: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

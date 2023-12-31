@@ -1,5 +1,5 @@
 import React from 'react';
-import './FinancialPlanning.module.css';
+import styles from './FinancialPlanning.module.css';
 import FP from './FP.png';
 import NavTop from '../NavTop/NavTop';
 import NavBottom from '../NavBottom/NavBottom';
@@ -9,10 +9,10 @@ const FinancialPlanning = () => {
   <>
     <NavTop/>
       <div className="nav-link">
-      <h2>Financial Planning</h2>
-      WHAT ADVICE DO WE PROVIDE
-      <img src={FP} alt='Financial Planning' />
-      <p>
+      <h2 className={styles.fp}><center><b>Financial Planning</b></center></h2>
+      <center className={styles.fp1}>WHAT ADVICE DO WE PROVIDE</center>
+      <img src={FP} alt='Financial Planning' className={styles.fpi}/>
+      <p className={styles.fpp}>
         Financial markets are prone to unpredictability and the need of an Individual and financial advice change frequently. In a developing economy at a higher inflation,<br/>
         the goal of maximizing profits is hindered by clouds of uncertainty. Minvest with its focused team of qualified professionals work closely with the clients<br/> 
         understanding financial goals and targets of an organization or an Individual. We take a modular and research driven approach to analyse, project, stimulate and<br/> 
@@ -24,14 +24,15 @@ const FinancialPlanning = () => {
         you meet all your financial goals while safeguarding your wealth.<br/><br/>
 
         <b>We will help you:</b><br/><br/>
-
-        Identify and prioitise your financial goal<br/>
-        Prepare for your children’s education or marriage plans<br/>
-        Fulfill and manage your retirement ambitions<br/>
-        Grow your wealth<br/>
-        Protect your family’s future against life’s uncertainties<br/>
-        Pass on your asset to future gen<br/>
-        Save taxes<br/><br/>
+        <ul>
+        <li>Identify and prioitise your financial goal</li><br/>
+        <li>Prepare for your children’s education or marriage plans</li><br/>
+        <li>Fulfill and manage your retirement ambitions</li><br/>
+        <li>Grow your wealth</li><br/>
+        <li>Protect your family’s future against life’s uncertainties</li><br/>
+        <li>Pass on your asset to future gen</li><br/>
+        <li>Save taxes</li><br/><br/>
+        </ul>
 
         <b>Who requires Financial Planning?</b><br/><br/>
         Some individuals might feel that they don’t need to plan or they know their finances better, or don’t have enough money.<br/><br/>
@@ -53,7 +54,7 @@ const FinancialPlanning = () => {
         Looking for products first and then trying to fit that product in your life isn’t the right approach. Looking at life first and at a later stage product must be looked at.<br/><br/>
 
         <b>What should be our right approach ?</b><br/><br/>
-        We all do financial planning unknowingly and in a unstructured manner in isolation.<br/>
+        We all do financial planning unknowingly and in a unstructured manner in isolation.<br/><br/>
 
         We do fixed deposits, buy insurance policies, invest in stocks and mutual funds, buy real estate and take loans.<br/><br/>
 
