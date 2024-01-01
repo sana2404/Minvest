@@ -1,15 +1,15 @@
 nav{
     background-color: rgb(60, 50, 194);
     color: white;
+    margin-top: 0%;
 }
 
 button{
     border-radius: 0px 0px 5px 0px;
-    padding: 5%;
-    background-color: greenyellow;
+    padding: 2% 5%;
+    background-color: rgb(56, 185, 144);
 }
 
 .dropdowon-menu{
     color: rgb(206, 201, 201);
 }
-

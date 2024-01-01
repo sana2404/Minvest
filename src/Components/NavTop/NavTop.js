@@ -6,22 +6,24 @@ export default function NavTop(){
     return(    
       <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <img src='logo.png' alt='Minvest Logo' />
-        <br /><br /><br /><br/>
+        <img src='logo.png' alt='Minvest Logo' style={{color: "black"}}/><br/><br/><br/><br/><br/>
         AMFI Registered
-        <br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br />
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/"  style={{color: "white"}}>HOME</Link>
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
+              <Link className="nav-link active" aria-current="page" to="/"  style={{color: "white" , marginLeft: '70px'}}>HOME</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/AboutUs"  style={{color: "white"}}>ABOUT US</Link>
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
+              <Link className="nav-link" to="/AboutUs"  style={{color: "white", width: '80px'}}>ABOUT US</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/FinancialPlanning"  style={{color: "white"}}>FINANCIAL PLANNING</Link>
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
+              <Link className="nav-link" to="/FinancialPlanning"  style={{color: "white", width: '150px'}}>FINANCIAL PLANNING</Link>
             </li>
             <li className="nav-item dropdown">
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
               <Link className="nav-link dropdown-toggle" to="/NRI" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color: "white"}}>
                 NRI
               </Link>
@@ -33,6 +35,7 @@ export default function NavTop(){
               </ul>
             </li>
             <li className="nav-item dropdown">
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
               <Link className="nav-link dropdown-toggle" to="/Learning" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color: "white"}}>
                 LEARNING
               </Link>
@@ -43,15 +46,17 @@ export default function NavTop(){
               </ul>
             </li>
             <li className="nav-item">
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
               <Link className="nav-link" to="/Download" style={{color: "white"}}>DOWNLOAD</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ContactUs" style={{color: "white"}}>CONTACT US</Link>
+            <br /><br /><br /><br/><br/><br /><br /><br /><br/><br/>
+              <Link className="nav-link" to="/ContactUs" style={{color: "white", width: '100px'}}>CONTACT US</Link>
             </li>
           </ul>
-          <button type="submit">Client Login</button>
         </div>
       </div>
+      <button type="submit">Client Login</button>
     </nav>
     );
 }
