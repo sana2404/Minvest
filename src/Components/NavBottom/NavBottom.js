@@ -45,7 +45,7 @@ export default function  NavBottom(){
         </div>
       </div>
       <br /><br /><br /><br /><br />
-        <img src='logo.png' alt='Minvest Logo' /><br/><br/>
+        <img src='logo.png' alt='Minvest Logo' style={{marginLeft: '80%' , marginTop: '-730px'}}/><br/><br/>
         © Copyright 2020 - 2023 | M INVEST | All Rights Reserved
         <br /><br /><br /><br/>
     </>

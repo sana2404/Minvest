@@ -10,7 +10,7 @@ h1{
 
 .hhome{
     background-color: rgb(60, 50, 194);
-    color: rgba(212, 207, 207, 0.79);
+    color: rgba(255, 242, 242, 0.79);
     text-align: center;
     margin: 0%;
     padding-bottom: 2.5%;
@@ -28,6 +28,11 @@ button1{
     background-color: rgb(80, 214, 178);
     padding: 1% 2% 1% 2%;
     border-radius: 8px;
+}
+
+button1:hover{
+    background-color: blue;
+    color: white;
 }
 
 .imgStyle{

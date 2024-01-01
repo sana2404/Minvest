@@ -6,6 +6,7 @@ import portfolio from './portfolio.png';
 import slant from './slant-separator.png';
 import NavTop from '../NavTop/NavTop';
 import NavBottom from '../NavBottom/NavBottom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -106,7 +107,7 @@ const Home = () => {
         </div>
       </div>
       <br /><br /><br /><br /><br /><br /><br /><br />
-      <center><button1 type='submit'>CONTACT US TODAY</button1></center>
+      <center><button1 type='submit'><Link className="nav-link" to="/ContactUs">CONTACT US TODAY</Link></button1></center>
       <br /><br /><br /><br /><br />
     <NavBottom/>
     </>
