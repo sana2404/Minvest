@@ -8,6 +8,11 @@ const Learning = () => {
   <>
     <NavTop/>
     <div className="nav-link">Learning</div>;
+    <ul>
+      <li>Mutual Fund Industry</li>
+      <li>Equity</li>
+      <li>Market Regulator</li>
+    </ul>
     <NavBottom/>
   </>
   );  

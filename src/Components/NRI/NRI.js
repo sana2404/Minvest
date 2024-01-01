@@ -8,6 +8,11 @@ export default function NRI (){
   <>
     <NavTop/>
     <div className="nav-link">NRI</div>;
+    <ul>
+      <li>Why Invest in India</li>
+      <li>NRE/NRO Accounts</li>
+      <li>Open an NRI Account</li>
+    </ul>
     <NavBottom/>
   </>
   );

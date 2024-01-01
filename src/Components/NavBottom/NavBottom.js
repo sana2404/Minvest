@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 export default function  NavBottom(){
     return(
     <>    
-        <div className="row">
+        <div className={styles.rowb1}>
             <h2>Navigate</h2>
             <br/>
-        <div className="col">
+        <div className="colb1">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">MINVEST HOME</Link>
+              <Link className="nav-link active" aria-current="page" to="/" style={{color: "blueviolet"}}>MINVEST HOME</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/AboutUs">ABOUT US</Link>
@@ -35,14 +35,16 @@ export default function  NavBottom(){
             </li>
         </ul>
         </div>
-        <div className="col">
+      </div>
+      <div className={styles.rowb2}>        
+        <div className="colb2">
             <nav className={styles.bottom}>
               <ul><img src={mail} alt='mail' className={styles.imgs}/>  investwithmitesh@gmail.com</ul>
               <ul><img src={phone} alt='phone' className={styles.imgs}/>  +91 9176453132</ul>
             </nav>
         </div>
-        </div>
-        <br /><br />
+      </div>
+      <br /><br /><br /><br /><br />
         <img src='logo.png' alt='Minvest Logo' /><br/><br/>
         © Copyright 2020 - 2023 | M INVEST | All Rights Reserved
         <br /><br /><br /><br/>

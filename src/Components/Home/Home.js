@@ -70,29 +70,42 @@ const Home = () => {
       </div>
       
       <div className={styles.container4}>
-        <div className='row'>
-          <div className="col">
-            <h4>Solution That Suit Your Needs</h4>
+        <div className={styles.row1}>
+          <br /><br />
+          <center>
+          <div className="col1">
+            <h5>Solution That Suit Your Needs</h5>
             <br/>At MINVEST, our core aim is to serve our clients<br/>
               with dedication and integrity, meet their<br/>
               expectations and build enduring relationship.
           </div>
-          <div className="col">
-            <h4>When We Grow, We Grow <br/><justify>Together</justify></h4>
+          </center>
+        </div>
+        <div className={styles.row2}>
+          <br /><br />
+        <center>
+          <div className="col2">
+            <h5>When We Grow, We Grow <br/><center>Together</center></h5>
             <br/>Our revenue and success are determined by our<br/>
               investor’s success. This philosophy is rarely<br/>
               found with traditional agents.
           </div>
-          <div className="col">
-            <h4>Mutual Funds</h4>
+        </center>
+        </div>
+        <div className={styles.row3}>
+          <br/><br/>
+          <center>
+          <div className="col3">
+            <h5>Mutual Funds</h5>
             <br/>Empanelled with all the Asset Management<br/>
               Companies, our R&D division is always on the<br/>
               hook to provide innovative ways for better<br/>
               investment results.<br/>
           </div>
+          </center>
         </div>
       </div>
-      <br/><br/>
+      <br /><br /><br /><br /><br /><br /><br /><br />
       <center><button1 type='submit'>CONTACT US TODAY</button1></center>
       <br /><br /><br /><br /><br />
     <NavBottom/>

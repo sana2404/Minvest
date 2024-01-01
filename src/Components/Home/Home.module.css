@@ -54,3 +54,48 @@ button1{
     padding-top: 6%;
     padding-left: 3%;  
 }
+
+.row1{
+    background-color: rgb(104, 104, 221);
+    width: 28%;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 60px;
+    height: 250px;
+    padding: 2%;
+    margin-left: 1.5%;
+    font-size: 14px;
+}
+
+.row2{
+    background-color: rgb(61, 61, 146);
+    width: 28%;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 60px;
+    height: 250px;
+    padding: 2%;
+    padding-left: 1.5%;
+    margin-left: 33%;
+    margin-top: -200px;
+    font-size: 14px;
+}
+
+.row3{
+    background-color: rgb(104, 104, 221);
+    width: 28%;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 60px;
+    height: 250px;
+    padding: 2%;
+    margin-left: 65%;
+    margin-top: -300px;
+    font-size: 14px;
+}

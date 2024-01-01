@@ -1,9 +1,17 @@
-ul{
+.rowb1{
+    width: 15%;
+    margin-left: 1.5%;
     font-size: small;
 }
 
-li{
-    margin-left: 2%;
+.rowb1:hover::before{
+    color: blueviolet;
+}
+.rowb2{
+    height: 250px;
+    font-size: small;
+    margin-left: 20%;
+    margin-top: -290px;
 }
 
 h2{
@@ -17,5 +25,5 @@ h2{
 
 .bottom{
     background-color: white;
-    color: rgb(60, 50, 194);
+    color: blueviolet;
 }
