@@ -4,6 +4,7 @@
     padding-bottom: 5%;
     margin-bottom: 0%;
     color: white;
+    padding-top: 15%;
 }
 
 .fhead{
@@ -29,3 +30,4 @@
     display: flex;
     justify-content: space-around;
 }
+

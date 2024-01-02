@@ -19,6 +19,7 @@ export default function ContactUs() {
       <br /><br /><br /><br /><br /><br /><br />
       <img src={p1} alt='contact-person-logo' className={styles.contactimg}/>
     </div>
+    <br /><br /><br /><br /><br />
     <NavBottom/>
   </>
   );

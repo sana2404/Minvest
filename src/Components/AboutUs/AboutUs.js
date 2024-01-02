@@ -8,14 +8,13 @@ import NavBottom from '../NavBottom/NavBottom';
 const AboutUs = () => {
   return (
   <>
+  
   <NavTop/>
     <div className="nav-link">
       <h1>About Us</h1>
       <h5 className={styles.ahead}><center>WHO WE ARE / WHY CHOOSE US</center></h5>
       <br /><br /><br /><br /><br />
-    
-    
-
+      <div className="container">
       <img src={circle} alt='circle' className={styles.imgabout}/>
       <h3 className={styles.ahead1}>Our Aim & Objective:</h3> 
       <p className={styles.babout1}>Providing ethical and value-based advice being our strength, our objective is to balance between one’s <br />
@@ -45,6 +44,8 @@ const AboutUs = () => {
 
         It helps to develop an easy step-by-step approach towards your Investments to work in harmony towards your goals.</p><br/>    
     </div>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+  </div>
   <NavBottom/>
   </>
   );

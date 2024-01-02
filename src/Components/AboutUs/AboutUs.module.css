@@ -1,4 +1,4 @@
-.imgabout{
+/* .imgabout{
     margin-top: 0%;
     margin-right: 10px;
     float: right;
@@ -12,13 +12,15 @@
     display: flex;
     align-items: center;
 }
+*/
 
-.ahead{
+ .ahead{
     background-color: rgb(60, 50, 194);
     color: rgb(231, 219, 219);
     padding-bottom: 60px;
-}
+} 
 
+/*
 .ahead1{
     margin-left: 2%;
 }
@@ -26,9 +28,10 @@
 .babout{
     margin-left: 2%;
 }
+*/
 
 .babout1{
-    margin-left: 2%;
+    font-size: 15px;
 }
 
 
@@ -38,7 +41,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
   }
 
+.imgabout, .imgaboutus{
+    float: right;
+}
   
