@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './/Components/Home/Home';
-import { BrowserRouter as Router, Switch, Route, Link, Routes} from 'react-router-dom';
+import { BrowserRouter as Router,  Route,  Routes} from 'react-router-dom';
 import AboutUs from './/Components/AboutUs/AboutUs';
 import FinancialPlanning from './/Components/FinancialPlanning/FinancialPlanning';
 import NRI from './/Components/NRI/NRI';

@@ -30,3 +30,15 @@
 .babout1{
     margin-left: 2%;
 }
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  

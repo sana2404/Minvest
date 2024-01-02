@@ -13,6 +13,9 @@ const AboutUs = () => {
       <h1>About Us</h1>
       <h5 className={styles.ahead}><center>WHO WE ARE / WHY CHOOSE US</center></h5>
       <br /><br /><br /><br /><br />
+    
+    
+
       <img src={circle} alt='circle' className={styles.imgabout}/>
       <h3 className={styles.ahead1}>Our Aim & Objective:</h3> 
       <p className={styles.babout1}>Providing ethical and value-based advice being our strength, our objective is to balance between one’s <br />
